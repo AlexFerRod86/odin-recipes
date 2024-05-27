@@ -1,59 +1,79 @@
 * {
   box-sizing: border-box;
   background-color: aliceblue;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 20px;
+  margin: 0%;
+  padding: 0%;
 }
-.img { 
+
+.img {
   height: 200px;
   width: 300px;
   max-width: 15%;
   max-height: 15%;
   margin-bottom: 15px;
   margin-top: 15px;
-} 
-
-ul{
-  list-style: none;
-  text-align:left ;
-  padding-left:auto ;
+  margin-left: 20px;
 }
 
-li > a{
+ul {
+  list-style: none;
+  text-align: left;
+  margin: 20px 0px 20px 30px;
+}
+
+li > a {
   text-align: start;
   font-size: 25px;
   text-decoration: none;
-  color:chocolate;  
+  color: chocolate;
 }
 
-h1{
+h1 {
   font-size: 65px;
   font-weight: bold;
-  color:brown;
+  color: brown;
+  background-color: burlywood;
 }
 
-div .container{
-  width: 600px;
-  height:500px;
-  background-color: darkgoldenrod;
-}
+/*estilos de las recetas */
 
-h2{
+h2 {
   color: chocolate;
-  font-size: 40px;
+  font-size: 45px;
   padding-left: 20px;
 }
 
-h3{
+h3 {
   color: chocolate;
-  font-size: 30px;
+  font-size: 35px;
   padding-left: 20px;
 }
 
-p{
+.container {
+  display: flex;
+  margin-left: 30px;
+}
+
+p {
   text-wrap: balance;
-  display: flexbox;
-  flex-wrap: wrap;
   max-width: 50%;
-  
+}
+ol {
+  margin: 20px 0px 50px 70px;
+}
+
+.inicio {
+  margin-left: 30px;
+  font-size: 30px;
+  text-decoration: none;
+  background-color: darkgoldenrod;
+  padding: 15px 15px;
+  border-radius: 8%;
+  color: white;
+}
+li{
+  font-size: 25px;
+  color: rgb(6, 6, 91);
 }
